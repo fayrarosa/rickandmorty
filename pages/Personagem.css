@@ -1,0 +1,44 @@
+.details-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A2A2A2;
+    max-width: 200ch;
+    height: 180px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-card img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.infos-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-align {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-card {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    background-color: lightblue;
+    width: 280px;
+    height: 100px;
+}
